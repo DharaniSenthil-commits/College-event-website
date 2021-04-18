@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MCA</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="css1/css1.css">
+  <style>
+   style.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px 10px;
+  z-index: 1;
+  color:#0080ff;
+  font-size= 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+</head>
+
+<body>
+
+<script language=JavaScript>
+<!--
+
+
+var message="Right click is restricted..for further details contact IT WEBTEAM";
+
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+// --> 
+</script>
+<script language=JavaScript>
+//
+//
+//
+//var message="Right click is restricted..for further details contact IT WEBTEAM";
+//
+/////////////////////////////////////
+//function clickIE4(){
+//if (event.button==2){
+//alert(message);
+//return false;
+//}
+//}
+//
+//function clickNS4(e){
+//if (document.layers||document.getElementById&&!document.all){
+//if (e.which==2||e.which==3){
+//alert(message);
+//return false;
+//}
+//}
+//}
+//
+//if (document.layers){
+//document.captureEvents(Event.MOUSEDOWN);
+//document.onmousedown=clickNS4;
+//}
+//else if (document.all&&!document.getElementById){
+//document.onmousedown=clickIE4;
+//}
+//
+//document.oncontextmenu=new Function("alert(message);return false")
+//
+//
+//</script>
+    <!-- Navigation -->
+	<!--<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+-->    
+  
+   <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Technothirst 18-19</a>
+    </div>
+	
+
+
+    <div class="collapse navbar-collapse" id="myNavbar">    <!-- collapse while in mobile view-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#top" onclick = $("#menu-close").click(); >HOME</a></li>
+        <li><a href="#about" onclick = $("#menu-close").click(); >PAPER PRESENTATION</a></li>
+        <li><a href="#services" onclick = $("#menu-close").click(); >EVENTS</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf2_pd1EEVGD5ruDKlciPWk65pqkYu8bWgKp-RIu5sXbuXYEQ/viewform?usp=sf_link" target="_blank" onclick = $("#menu-close").click(); >REGISTRATION</a></li>
+        <li><a href="#contact" onclick = $("#menu-close").click(); >CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	
+    
+    <!--<nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+		
+           
+           
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+			</li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Paper Presentation</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Events</a>
+            </li>
+            <li>
+                <a href="poster.html"  target="_blank"onclick = $("#menu-close").click(); >Poster</a>
+            </li>
+            <li>
+                <a href="http://goo.gl/forms/s46s5kQ1Tf" target="_blank" onclick = $("#menu-close").click(); >Registration</a>
+            </li>
+			<li>
+				<a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+			</li>
+        </ul>
+    </nav> ->
+
+    <!-- Header -->
+    <header id="top" class="header">
+	<div  class=""><a href="../index.html" ><img src="img/home.png" style="width:100px; height:100px; margin-top:29px"></a></div>
+	 <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Technothirst 18-19</a>
+    </div>
+	
+
+
+    <div class="collapse navbar-collapse" id="myNavbar">    <!-- collapse while in mobile view-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#top" onclick = $("#menu-close").click(); >HOME</a></li>
+        <li><a href="#about" onclick = $("#menu-close").click(); >PAPER PRESENTATION</a></li>
+        <li><a href="#services" onclick = $("#menu-close").click(); >EVENTS</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf2_pd1EEVGD5ruDKlciPWk65pqkYu8bWgKp-RIu5sXbuXYEQ/viewform?usp=sf_link" target="_blank" onclick = $("#menu-close").click(); >REGISTRATION</a></li>
+        <li><a href="#contact" onclick = $("#menu-close").click(); >CONTACT</a></li>
+		<li><a href="..\mca\poster.html" onclick = $("#menu-close").click(); >POSTER</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <div class="text-vertical-center">
+            <h1>Techn<img src="img/logoo.png" style="width:50px;height:50px">thirsT'2k19</h1>
+            <h3 class="dept"><b><h2><b>Department Of Computer Application</b></h2></b></h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a><br>
+			<!--<h3 class="dept"><b><h2><b>MARCH    1& 2, 2019</b></h2></b></h3><br>
+			<h3 class="dept"><b><h4><b>last date for submission : 22/02/2019</b></h4></b></h3><br>
+			<h3 class="dept"><b><h4><b>intimation date : 25/02/2019</b></h4></b></h3><br>-->
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 text-center">
+				
+                   <div class="dropdown">
+  <span><h2><b>Paper Presentation</b></h2></span>
+  <div class="dropdown-content">
+  <p><h4><b>Protocols for paper presentation</b></h4>
+  <h5><b>Team Limitation:</b><br>
+1)Two members/Team for Paper presentation<br> 
+2)IEEE format<br>
+3)Send 2 Hard Copy<br>
+4)ID Card Mandatory</h5></p>
+  </div>
+  </div>
+					(Topics are not limited too..)
+                    <p class="lead">
+					<ul>
+					<!--<li class="pap">Computing Technologies</li>-->
+                    <li class="pap"><h4><b>Android</b></h4></li>
+                    <li class="pap"><h4><b> Network Security</b></h4></li>
+                    <li class="pap"><h4><b>Cloud Computing</b></h4></li> 	
+					<li class="pap"><h4><b>Image Procesing</b></h4></li>
+					<li class="pap"><h4><b>Data Mining</b></h4></li>
+					<li class="pap"><h4><b>IT Infrastructure</b></h4></li>
+					<li class="pap"><h4><b>IOT</b></h4></li>
+					</ul>
+					</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+   
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Events</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="evnt_cont">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <!--<i class="fa fa-circle fa-stack-2x"></i> -->
+                                <i class="fa fa-code" style="font-size:48px"></i>
+                            </span>
+                                <h4>
+                                  <!--  <strong><a href="www.google.com" style="color:white" "text-decoration:none">Code Debugging</a></strong> -->
+								  <!--<div class="dropdown">-->
+  <span><b>Code Debugging</b></span>
+  <!--<div class="dropdown-content">
+  <p>hello world</p>
+  </div>
+  </div>-->
+                                </h4>
+                              <!--   <p><a href="CODE.pdf" class="lnk"  target="_blank" style="color:#00CCB9;">Click here to know more about rules...</a></p>
+                               <a href="http://goo.gl/forms/s46s5kQ1Tf" target="_blank" class="btn btn-light">Register</a>-->
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                               <!-- <i class="fa fa-circle fa-stack-2x"></i> -->
+                                <i class="fa fa-cogs" style="font-size:48px"></i>
+                            </span>
+                                <h4>
+                                   <!-- <strong ><a href="www.google.com" style="color:white" "text-decoration:none">Quiz</a></strong> -->
+								   <!--<div class="dropdown">-->
+  <span><b>Quiz</b></span>
+  <!--<div class="dropdown-content">
+  <p>hello world</p>
+  </div>
+  </div>-->
+                                </h4>
+                                <!-- <p><a href="new rules for tech quiz.pdf" class="lnk"  target="_blank" style="color:#00CCB9;">Click here to know more about rules...</a></p>
+                                <a href="http://goo.gl/forms/s46s5kQ1Tf" target="_blank" class="btn btn-light">Register</a>-->
+                            </div>
+                        </div>
+						<div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                <i class="fa fa-gamepad" style="font-size:48px"></i>
+                            </span>
+                                <h4>
+                                   <!-- <strong><a href="www.google.com" style="color:white" "text-decoration:none">Fun Events</a></strong>-->
+								  <!-- <div class="dropdown">-->
+  <span><b>Fun Events</b></span>
+ <!-- <div class="dropdown-content">
+  <p>hello world</p>
+  </div>
+  </div>-->
+                                </h4>
+                                <!-- <p><a href="new rules for tech quiz.pdf" class="lnk"  target="_blank" style="color:#00CCB9;">Click here to know more about rules...</a></p>
+                                <a href="http://goo.gl/forms/s46s5kQ1Tf" target="_blank" class="btn btn-light">Register</a>-->
+                            </div>
+                        </div>
+						</div>
+						
+						
+						<!--<div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                               <!-- <i class="fa fa-circle fa-stack-2x"></i> 
+                                <i class="fa fa-gamepad" style="font-size:48px"></i>
+                            </span>
+                                <h4>
+                                    <strong><a href="www.google.com" style="color:white" "text-decoration:none">Connexion</a></strong>-->
+                                </h4>
+                                <!-- <p><a href="new rules for tech quiz.pdf" class="lnk"  target="_blank" style="color:#00CCB9;">Click here to know more about rules...</a></p>
+                                <a href="http://goo.gl/forms/s46s5kQ1Tf" target="_blank" class="btn btn-light">Register</a>-->
+                            </div>
+                        </div>
+						
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+<aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Click here for registration!!</h3>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2_pd1EEVGD5ruDKlciPWk65pqkYu8bWgKp-RIu5sXbuXYEQ/viewform?usp=sf_link"  class="btn btn-lg btn-light" target="_blank">REGISTER</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- Callout -->
+   <!--  <aside class="callout">
+        <div class="text-vertical-center">
+            <h2>Genius one percent <b>inspiration </b>and 99 percent <b>perspiration</b><br><h3 class="qut">- Thomas Alva Edison</h3></h2>
+        </div>
+    </aside>
+
+    <!-- Portfolio 
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>For More Details Refer the Poster Below</h2>
+                    <hr class="small">
+                    <div class="row">
+					
+                    </div>
+                    <!-- /.row (nested)
+                    <a href="poster.html" target="_blank"  class="btn btn-dark">View Poster </a>
+                </div>
+                <!-- /.col-lg-10
+            </div>
+            <!-- /.row
+        </div>
+        <!-- /.container 
+    </section>
+
+    <!-- Call to Action 
+    
+
+    <!-- Map -->
+ 
+
+    <footer> 
+    <div>
+        <div class="container">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><!--<strong>AVCCE WEB TEAM</strong>-->
+                    </h4>
+                   <p class="kaa_tit">
+					  <span class="kaa">For Further Details Do Contact:</span>
+                      <span class="kaa">  The Co-ordinator</span>
+                       <span class="kaa"> TechnothirsT'18-19</span>
+                       <span class="kaa"> Department of MCA</span>
+						<span class="kaa">A.V.C College of Engineering</span>
+						<span class="kaa">Mayiladuthurai, Mannampandal - 609 305</span>
+					<span class="kaa"><i class="fa fa-phone fa-fw"></i>N.Srinivasan[AP/MCA]-80566-14991</span>
+					<span class="kaa"><i class="fa fa-phone fa-fw"></i>M.Ashokvel[AP/MCA]-98944-28034</span>
+					<a href="https://www.google.com/maps/place/AVC+Engineering+College/@11.1049724,79.6938376,15z/data=!4m5!3m4!1s0x0:0xd95a8f5c165bb425!8m2!3d11.1049724!4d79.6938376" title="Locate avcce" target="_blank">
+  <a href="https://www.google.com/maps/place/AVC+Engineering+College/@11.1049724,79.6938376,15z/data=!4m5!3m4!1s0x0:0xd95a8f5c165bb425!8m2!3d11.1049724!4d79.6938376" title="Locate avcce" target="_blank">
+  <button class="btn btn-default btn-lg " style="font-size: 15px;box-shadow: 5px 5px 5px black; margin-left:180px"> Track Us </button></a><br><br><br>
+				
+			        <span class="kaa"><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:technothirstit@avccengg.net">technothirstmca19@gmail.com</a></span>
+					<span class="kaa">copyright @ AVCCE2019.</span>
+					 <span class="kaa"><ul class="list-inline">
+                        <li >
+                 <a href="https://instagram.com/technothirst_avcce?utm_source=ig_profile_share&igshid=hpc9jm1nz4tb"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                        <li >
+                            <a href="www.avccengg.net"><i class="fa fa-google fa-fw fa-3x"></i></a>
+                        </li>
+                        <li >
+                           <!-- <a href="http://www.avccengg.net"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>-->
+                        </li>
+                    </ul>
+					</span>
+					<!--<span class="kaa">
+                    <hr class="small"></span>
+					<span class="kaa">
+                    <p class="text-muted kaa">Copyright &copy; AVCCE <!--| Designed by <a href="../web team/demo/index.html">IT NONETs--></a></p>
+					</span>
+					
+					
+					</p>
+                    
+                    
+                   
+                </div>
+            </div>
+			
+        </div>
+		<section id="contact" class="container">
+       		
+    <!--  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:1400px;'><div id='gmap_canvas' style='height:400px;width:1400px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://www.freevisitorcounters.com'>more on freevisitorcounters.com</a>-->
+	  
+	  
+<!--	   <script type='text/javascript' src='http://embedmaps.com/google-maps-authorization/script.js?id=ec48fd5b328768d9d1335b0e34f0c28092005628'></script>
+	  
+	  
+	  <script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(11.105679221986415,79.69649554221542),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(11.105679221986415,79.69649554221542)});infowindow = new google.maps.InfoWindow({content:'<strong>AVC college of engineering</strong><br>Mannampandal<br>609305 Mayiladuthurai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>-->
+	  <!--<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:1400px;'><div id='gmap_canvas' style='height:400px;width:900px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://www.freevisitorcounters.com'>.</a> <script type='text/javascript' src='http://embedmaps.com/google-maps-authorization/script.js?id=ec48fd5b328768d9d1335b0e34f0c28092005628'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(11.105679221986415,79.69649554221542),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(11.105679221986415,79.69649554221542)});infowindow = new google.maps.InfoWindow({content:'<strong>AVC college of engineering</strong><br>Mannampandal<br>609305 Mayiladuthurai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </section>
+		</div> -->
+		
+		</footer>
+		
+  
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>

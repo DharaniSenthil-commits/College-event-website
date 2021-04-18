@@ -1,0 +1,13 @@
+<a href="https://www.google.com/maps/place/AVC+Engineering+College/@11.1049724,79.6938376,15z/data=!4m5!3m4!1s0x0:0xd95a8f5c165bb425!8m2!3d11.1049724!4d79.6938376" title="Locate avcce" target="_blank">
+  <button class="btn btn-default btn-lg " style="font-size: 15px;box-shadow: 5px 5px 5px black; margin-left:50px"> Track Us </button></a>
+
+
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

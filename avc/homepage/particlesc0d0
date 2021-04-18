@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Particles</title>
+		<description><![CDATA[]]></description>
+		<link>http://avc/homepage/particles</link>
+		<lastBuildDate>Wed, 06 Feb 2019 15:24:58 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://avc/homepage/particles?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+	</channel>
+</rss>
